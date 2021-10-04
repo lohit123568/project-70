@@ -1,0 +1,61 @@
+body{
+     margin:0;
+    padding-top:800px;
+}
+
+h1{
+    font-size: 40px;
+    line-height: 1.2;
+    font-family: inherit;
+    font-weight: 300;
+}
+
+h2{
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 1.2;
+        font-family: monospace;
+}
+
+.menu{
+    position:fixed;
+    top: 10px;
+    margin-top: 0px;
+    background:#8B529D;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.links{
+    display: inline;
+    padding-left: 9px;
+    padding-right: 9px;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.links:hover{
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+a{
+    text-decoration:none;
+    color: cornflowerblue;
+    text-shadow: 2px 2px gainsboro;
+}
+
+#new{
+    height: 150%;
+    width: 150px;
+}
+
+#big{
+    height: 150%;
+    width: 150px;
+}
+
+#color{
+    height: 150%;
+    width: 150px;
+}
